@@ -1,18 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 body{
     background:#222;
+    font-family: 'Poppins', sans-serif;
 }
 .card{
     width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 25px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -89,4 +89,21 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d4cfcf;
+    text-align: center;
+}
+#note{
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #d4cfcf;
 }
